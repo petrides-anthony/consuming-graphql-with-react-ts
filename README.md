@@ -4,6 +4,7 @@ This project is an simply example illustrating how to consume data from a graphq
 
 ## Running the app
 `yarn`
+
 `yarn start`
 
 Runs the app in the development mode.\
