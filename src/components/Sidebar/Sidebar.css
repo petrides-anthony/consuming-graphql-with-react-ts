@@ -1,0 +1,31 @@
+.side-bar {
+  height: 100% !important;
+  display: flex;
+  flex-direction: column;
+  border-right: 1px solid;
+  border-radius: 0;
+  border-color: #61dafb;
+  background-color: #7393B3;
+  transition: 0.8s ease;
+}
+
+.toggle-menu {
+  height: 50px;
+  border-top-right-radius: 10rem;
+  border-bottom-right-radius: 9rem;
+  width: 10px;
+  position: absolute;
+  outline: none;
+  z-index: 1;
+  background-color: #61dafb;
+  border-color: #61dafb;
+  border-left: 0;
+}
+
+.content {
+  margin-left: 20px;
+  margin-right: 20px;
+  color: black;
+  font-size: 18px;
+  text-align: justify;
+}

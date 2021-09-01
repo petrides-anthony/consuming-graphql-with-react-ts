@@ -10,8 +10,15 @@ const SPACEX_LAUNCHES_QUERY = `
   }
 }
 `
+type LaunchDetails = {
+  id: string;
+  mission_name: string;
+  launch_success?: boolean;
+  launch_date_local: Date;
+}
+
 const useLaunchData = () => {
-  const [launchData, setLaunchData] = React.useState<any[]>([]);
+  const [launchData, setLaunchData] = React.useState<LaunchDetails[]>([]);
   
   React.useEffect(() => {
     fetch('https://api.spacex.land/graphql/', {
